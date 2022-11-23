@@ -46,8 +46,6 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
 //                .onto(holder.mBlurryLayout);
         holder.tv_1.setText(dataList.get(position));
         holder.mBlurringView.setBlurredView(holder.blurredView);
-
-
     }
 
     @Override
